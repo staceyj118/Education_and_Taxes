@@ -3,7 +3,9 @@ Analyzing IRS data to determine if areas with greater educational (early learnin
 
 ## Datasets used: 
 Public Schools (early learning - grade 12): https://www.kaggle.com/carlosaguayo/usa-public-schools
+
 IRS: https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-statistics-zip-code-data-soi
+
 College/University: https://www.registrar.iastate.edu/sites/default/files/uploads/codebook/bystate.pdf
 
 ## Transformation: 
