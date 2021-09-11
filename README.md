@@ -16,5 +16,7 @@ Data for taxes and census is for 2018. The public school data is for 2014 only; 
 
 ## Contributors:
 Andy: https://github.com/andyob715
+
 Jake: https://github.com/JakeRose689
+
 Stacey: https://github.com/staceyj118
