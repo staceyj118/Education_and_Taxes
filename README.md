@@ -9,25 +9,33 @@ IRS: https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-statisti
 
 College/University: https://www.registrar.iastate.edu/sites/default/files/uploads/codebook/bystate.pdf
 
+Census Data: https://www.census.gov/data/developers/data-sets.html & GitHub - datamade/census: A Python wrapper for the US Census API.
+
 ## Transformation: 
 
-Cleaned data sets to focus strictly on Indiana and for the year 2018 with the exception of public school set, which is defined as being 2014-2015 school year. Census API was used to find population data to compare with tax filings reported by the IRS. College/University had to be transformed from pdf to excel to be reorganized and cleaned up. Google Geocode was used to obtain the zip code for the college/university as this was not originally included by getting the latitude and longitude of each city. St Mary-of-the-Woods, North Manchester University, and Ancilla College showed up as NaN when obtaining Lat and Lng coordinates. To not loose these colleges as part of the data set, the data was exported to a new CSV file and these coordinates were entered manually to finish obtaining zip code for all college/universities. Data for 2018 taxes in Indiana were downloaded and cleaned using Pandas. All cleaned data were exported to new, cleaned csv files: Indiana_k12.csv, _____, ____. 
+Cleaned data sets to focus strictly on Indiana and for the year 2018 with the exception of public school set, which is defined as being 2014-2015 school year. Census API was used to find population data to compare with tax filings reported by the IRS. College/University had to be transformed from pdf to excel to be reorganized and cleaned up. Google Geocode was used to obtain the zip code for the college/university as this was not originally included by getting the latitude and longitude of each city. Data for 2018 taxes in Indiana were downloaded and cleaned using Pandas.  
 
 ### Languages Used: 
 <li>pandas
 <li>matplotlib
 <li>sqlalchemy
 <li>json
+<li>scipy.stats
 
 ## Analysis: 
-In Indiana, there are 674 zip codes with available IRS data, 517 unique zip codes that has PK-12 schools, 53 unique zip codes that have colleges or universities, and 47 that have both grade level and college/university level schools.
+In Indiana, there are 674 zip codes with available IRS data, 517 unique zip codes that has PK-12 schools, 53 unique zip codes that have colleges or universities, and 47 that have both grade level and college/university level schools. 
+
+There were 6,211,130 total tax returns filed: 5,706,720 electronically and 260,120 paper (computer prepared). Out of all the returns, 3,007,160 were submitted by paid preparers and 108,070 by volunteers. Direct deposits were received on 4,205,260 of the returns. Returns accounted for a total of 11,866,510 persons, 3,783,260 of which were dependents.
 
 
 
 
 ## Drawbacks:
 
-Data for taxes and census is for 2018. The public school data is for 2014 only; however, it is assumed there have been no school closings or openings within that time period. It is also unknown how many people did not file taxes for reasons such as malicious intent or incapability.  
+<li>Some people do not file taxes, which could not be accounted
+<li>Data for taxes and census is from 2018
+<li>Data from public schools was 2014 – it is assumed not significant changes
+<li>Data from colleges/universities was a recent list, exact year unknown
 
 ## Contributors:
 
