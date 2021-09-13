@@ -23,9 +23,15 @@ Cleaned data sets to focus strictly on Indiana and for the year 2018 with the ex
 <li>scipy.stats
 
 ## Analysis: 
+<<<<<<< Updated upstream
 In Indiana, there are 674 zip codes with available IRS data, 517 unique zip codes that has PK-12 schools, 53 unique zip codes that have colleges or universities, and 47 that have both grade level and college/university level schools. 
 
 There were 6,211,130 total tax returns filed: 5,706,720 electronically and 260,120 paper (computer prepared). Out of all the returns, 3,007,160 were submitted by paid preparers and 108,070 by volunteers. Direct deposits were received on 4,205,260 of the returns. Returns accounted for a total of 11,866,510 persons, 3,783,260 of which were dependents.
+=======
+In Indiana, there are 675 zip codes total per the IRS, 517 unique zip codes that has PK-12 schools, ____ unique zip codes that have colleges or universities, and ___ that has both grade level and college/university level schools.
+
+There were 6,211,130 total tax returns filed: 5,706,720 electronically and 260,120 paper (computer prepared). Out of all the returns, 3,007,160 were submitted by paid preparers and 108,070 by volunteers. Direct deposites were received on 4,205,260 of the returns. Returns accounted for a total of 11,866,510 persons, 3,783,260 of which were dependents.
+>>>>>>> Stashed changes
 
 
 
